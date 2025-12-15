@@ -1,0 +1,36 @@
+node_modules/
+dist/
+build/
+coverage/
+.parcel-cache/
+.turbo/
+.pnp*
+.npm*
+.yarn*
+
+# Editors/OS
+.DS_Store
+.vscode/
+.idea/
+
+# Env & secrets
+.env
+.env.*
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+*.sqlite3
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build outputs (Cordova/Ionic)
+platforms/
+plugins/
